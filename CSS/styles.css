@@ -40,7 +40,7 @@ header {
 }
 .head {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
     height: 83px;
     max-width: 1438px;
@@ -51,7 +51,7 @@ header {
 nav {
     display: flex;
     /* margin: auto; */
-    margin-left: 45px;
+    margin-left: 100px;
 }
 .head>span {
     color:rgba(227, 184, 115, 1);
@@ -88,7 +88,7 @@ nav a {
     /* background-repeat: no-repeat; */
     background-position: center;
     position: relative;
-    z-index: -1;
+    z-index: 2;
 }
 /* .Step1:before {
 	content: '';
@@ -154,8 +154,8 @@ nav a {
     font-family: "Nunito sans";
     line-height: 36px;  
     color: #FFFFFF;
-    /* width: 504px;
-    height: 89px; */
+    /* width: 504px; */
+    height: 89px;
 }
 .ebutton2 {
     padding: 18px 42px;
