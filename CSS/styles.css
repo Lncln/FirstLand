@@ -184,7 +184,7 @@ nav a {
     margin: 0 auto;
 }
 .wrap2 {
-    padding: 80px;   
+    padding: 107px 134px;   
 }
 /* .project-navigation {
 
@@ -194,7 +194,9 @@ nav a {
     list-style-type: none;
     /* margin-left: 602px; */
     /* margin-left: auto; */
-    /* justify-content: end; */
+    justify-content: space-between;
+    /* float: right;
+    width: 679px; */
 }
 li>a {
     /* display: flex; */
@@ -252,4 +254,20 @@ li>a {
 } */
 .imaga {
     float: right;
+}
+.online-control {
+    color: #FFFFFF;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    /* margin-top: 92px; */
+}
+.camera-image {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
 }
