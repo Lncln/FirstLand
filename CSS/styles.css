@@ -19,9 +19,7 @@
 @font-face {
     font-family: "Yeseva One";
     src: url(../Fonts/Yeseva_One/YesevaOne-Regular.ttf)
-    font-style: normal;
-    font-weight: 400px;
-}
+}  
 * {
     margin: 0px;
     /* border: 1px solid black; */
@@ -188,14 +186,18 @@ nav a {
 .wrap2 {
     padding: 80px;   
 }
+/* .project-navigation {
+
+} */
 .project-link {
     display: flex;
     list-style-type: none;
-    margin-left: 602px;
-    justify-content: space-between;
+    /* margin-left: 602px; */
+    /* margin-left: auto; */
+    /* justify-content: end; */
 }
 li>a {
-    display: flex;
+    /* display: flex; */
     text-decoration: none;
     text-transform: uppercase;
     font: normal 400 14px/19px "Yeseva One";
