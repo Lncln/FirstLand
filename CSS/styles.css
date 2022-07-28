@@ -187,16 +187,16 @@ nav a {
     padding: 107px 134px;   
 }
 /* .project-navigation {
-
 } */
 .project-link {
     display: flex;
     list-style-type: none;
     /* margin-left: 602px; */
-    /* margin-left: auto; */
+    margin-left: auto;
     justify-content: space-between;
-    /* float: right;
-    width: 679px; */
+    /* float: right; */
+    width: 679px; 
+    padding-right: 56px;
 }
 li>a {
     /* display: flex; */
@@ -248,10 +248,6 @@ li>a {
 .project-info-wrap>div {
     height: 99px;
 }
-/* .project-info-cost {
-}
-.project-info-area {
-} */
 .imaga {
     float: right;
 }
