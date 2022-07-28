@@ -118,9 +118,9 @@
                             &#10229;
                         </span>
                         <div class="radio">
-                        <input type="radio" name="project" value="1">
-                        <input type="radio" name="project" disabled value="2">
-                        <input type="radio" name="project" disabled value="3">
+                        <input type="radio" name="project" value="1" class="radiopoint">
+                        <input type="radio" name="project" disabled value="2" class="radiopoint">
+                        <input type="radio" name="project" disabled value="3" class="radiopoint">
                         </div>
                         <span class="arrow">	
                             	&#10230;       
@@ -140,9 +140,19 @@
                 <div class="camcover">
                      <iframe src="https://www.youtube.com/embed/txIjDujruFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="cam-control"></iframe>
                 </div>
-                <p>
-                    <img src="Images/Dash.svg" alt="Dash">
+                <p class="dash-image">
+                    <img src="Images/Longdash.svg" alt="Dash">
                 </p>
+                <p class="camera-desription">
+                    At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities!
+                    Leave a request below and you will receive a link to the broadcast.
+                </p>
+                <div class="pesronal-data-input">
+                    <label for="name">Name:<input type="text" id="name" placeholder="What is your name:"></label>
+                    <label for="Phone:">Phone:<input type="text" id="phone" placeholder="Your phone number:"></label>
+                    <input type="submit" id="submit" value="SUBMIT">
+                    <input type="checkbox" id="agree"><label for="agree" class="agreelabel">I agree to the processing of personal data</label>
+                </div>
             </section>
 	</body>
 </html>

@@ -296,7 +296,7 @@ li>a {
 .radio {
     margin: 0 30px;
 }
-input {
+.radiopoint {
     margin-right: 17px;
     width: 10px;
     cursor: pointer;
@@ -309,8 +309,77 @@ input {
 .camcover {
     text-align: center;
     margin-top: -216px;
+    margin-bottom: 62.5px;
 }
 .cam-control {
     width: 817px; 
     height: 434px; 
 }
+.dash-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 34.5px;
+}
+.camera-desription {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    color: #363636;
+    width: 681px;
+    margin:  0 auto;
+}
+input {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+
+    color: #363636;
+}
+#submit {
+    background: #E3B873;
+    box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 2px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    /* identical to box height */
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+    height: 51px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+#agree {
+    cursor: crosshair;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    border-radius: 1px;
+}
+label {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+}
+.agreelabel {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+    /* or 23px */
+    color: #181818;
+}
+
