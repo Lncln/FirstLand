@@ -271,3 +271,28 @@ li>a {
     display: flex;
     justify-content: center;
 }
+.arrow {
+    color: #FFFFFF;
+    display: inline-block;
+    line-height: 1;
+    -webkit-transform: scaleX(3) scaleY(2);
+    -moz-transform: scaleX(3) scaleY(2);
+    -ms-transform: scaleX(3) scaleY(2);
+    transform: scaleX(3) scaleY(2);
+    position: relative;
+    top: -3px;
+    left: 15px;
+    font-size: 15px;
+    font-family: Arial;
+    margin-right: 45px;
+}
+.slider {
+    display: flex; 
+}
+.radio {
+    margin: 0 30px;
+}
+input {
+    margin-right: 17px;
+    width: 10px;
+}
