@@ -281,9 +281,10 @@ li>a {
     font-size: 15px;
     font-family: Arial;
     margin-right: 45px;
+    cursor: pointer;
 }
 .slider {
-    display: flex; 
+    display: flex;
 }
 .radio {
     margin: 0 30px;
@@ -291,4 +292,5 @@ li>a {
 input {
     margin-right: 17px;
     width: 10px;
+    cursor: pointer;
 }
