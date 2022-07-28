@@ -32,6 +32,12 @@ button {
     font-style: italic;
     font-size: 11px;
     line-height: 15px;
+    transition-delay: 5s;
+    transition-duration: 2s;
+    transition-property: opacity;
+}
+button:hover {
+    opacity: 0.7;
 }
 header {
     background-color:#131313;
@@ -182,6 +188,7 @@ nav a {
     max-width: 1440px;
     background: #131313;
     margin: 0 auto;
+    padding-bottom: 257px;
 }
 .wrap2 {
     padding: 107px 134px;   
@@ -293,4 +300,17 @@ input {
     margin-right: 17px;
     width: 10px;
     cursor: pointer;
+}
+.Step3 {
+    max-width: 1440px;
+    margin: auto;
+    /* background: #FFFFFF; */
+}
+.camcover {
+    text-align: center;
+    margin-top: -216px;
+}
+.cam-control {
+    width: 817px; 
+    height: 434px; 
 }
