@@ -303,7 +303,7 @@ li>a {
 }
 .Step3 {
     max-width: 1440px;
-    margin: auto;
+    margin: 0 auto;
     /* background: #FFFFFF; */
 }
 .camcover {
@@ -382,4 +382,76 @@ label {
     /* or 23px */
     color: #181818;
 }
-
+.pesronal-data-input {
+    width: 769px;
+    align-items: center;
+    margin: auto;
+}
+.Step4 {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.wrap4 h3 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+    margin-bottom: 13px;
+}
+.repair-image {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+.types-of-repair {
+    display: flex;
+    justify-content: center;
+}
+.listname {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;  
+}
+.list-of-works li {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+}
+.priceperM2 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    /* width: 228px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.type-desription {
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+.redecorating {
+    background-image: url(../Images/typesofrepair/redecorating.svg);
+    margin-right: 30px;
+    /* min-width: 340px;
+    min-height: 484px; */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
