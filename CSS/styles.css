@@ -418,6 +418,15 @@ label {
     font-size: 18px;
     line-height: 25px;
     color: #363636;  
+    padding: 25px 34px;
+    
+    
+}
+.list-of-works {
+    width: 267px;
+    padding: 0px 29px 49px 34px;
+    /* position: relative; */
+    list-style: none;
 }
 .list-of-works li {
     font-family: 'Nunito Sans';
@@ -437,21 +446,40 @@ label {
     color: #FFFFFF;
     background-color: #E3B873;
     box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
-    /* width: 228px;
+    width: 228px;
     height: 54px;
+    /* position: absolute; */
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: center; */
+
 }
 .type-desription {
     background: #FFFFFF;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    position: relative;
 }
 .redecorating {
     background-image: url(../Images/typesofrepair/redecorating.svg);
     margin-right: 30px;
-    /* min-width: 340px;
-    min-height: 484px; */
+    max-width: 392px;
     background-size: contain;
     background-repeat: no-repeat;
+}
+.Overhaul {
+    background-image: url(../Images/typesofrepair/redecorating.svg);
+    margin-right: 30px;
+    max-width: 392px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.Designer {
+    background-image: url(../Images/typesofrepair/redecorating.svg);
+    margin-right: 30px;
+    max-width: 392px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.wrap4 {
+    margin-bottom: 34px;
 }
