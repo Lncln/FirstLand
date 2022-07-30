@@ -410,6 +410,7 @@ label {
 .types-of-repair {
     display: flex;
     justify-content: center;
+    /* position: relative; */
 }
 .listname {
     font-family: 'Yeseva One';
@@ -417,14 +418,12 @@ label {
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    color: #363636;  
-    padding: 25px 34px;
-    
-    
+    color: #363636;
+    margin-bottom: 13px;    
 }
 .list-of-works {
     width: 267px;
-    padding: 0px 29px 49px 34px;
+    /* padding: 0px 29px 49px 34px; */
     /* position: relative; */
     list-style: none;
 }
@@ -448,37 +447,50 @@ label {
     box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
     width: 228px;
     height: 54px;
-    /* position: absolute; */
     display: flex;
     justify-content: center;
     align-items: center;
-
+    position: absolute;
+    bottom: 0px;
+    left: 32px;
 }
 .type-desription {
     background: #FFFFFF;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
-    position: relative;
+    position: absolute;
+    max-width: 286px;
+    max-height: 330px;
+    padding: 25px 29px 49px 34px;
+    left: 32px;
+    bottom: 28px;
 }
 .redecorating {
     background-image: url(../Images/typesofrepair/redecorating.svg);
     margin-right: 30px;
-    max-width: 392px;
+    width: 392px;
     background-size: contain;
     background-repeat: no-repeat;
+    position: relative;
+    height: 608px;
 }
 .Overhaul {
-    background-image: url(../Images/typesofrepair/redecorating.svg);
+    background-image: url(../Images/typesofrepair/overhaul.svg);
     margin-right: 30px;
-    max-width: 392px;
+    width: 392px;
     background-size: contain;
     background-repeat: no-repeat;
+    position: relative;
+    height: 608px;
+
 }
 .Designer {
-    background-image: url(../Images/typesofrepair/redecorating.svg);
+    background-image: url(../Images/typesofrepair/designer.svg);
     margin-right: 30px;
-    max-width: 392px;
     background-size: contain;
     background-repeat: no-repeat;
+    position: relative;
+    width: 392px;
+    height: 608px;
 }
 .wrap4 {
     margin-bottom: 34px;
