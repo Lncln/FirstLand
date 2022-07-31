@@ -506,14 +506,17 @@ label {
 .Step5 {
     max-width: 1440px;
     margin: 124px auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 .wrap5 {
-
+    margin-left: auto;
+    margin-right: 131px;
 }
 .pathwrap {
     background-image: url(../Images/Section3/Backround.svg);
     height: 645px;
-    max-width: 645px;
+    width: 703px;
     background-repeat: no-repeat;
     background-size: auto;
     background-position: bottom;
@@ -583,6 +586,7 @@ label {
     color: #FFFFFF;
     display: grid;
     text-align: center;
+    margin-right: 100px;
 }
 .request>label {
     color: rgba(255, 255, 255, 0.5);
@@ -600,6 +604,7 @@ label {
     background: #E3B873;
     box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
     border-radius: 50%;
+    margin-right: 25px;
 }
 .discount:active {
    background-color: rgba(34, 14, 14, 0.05)
@@ -613,4 +618,11 @@ label {
     color: #E3B873;
     text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15); 
     width: 344px;
+    margin-right: 132.5px;
 }
+.adv {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
