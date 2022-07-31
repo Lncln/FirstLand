@@ -380,6 +380,21 @@ label {
     line-height: 21px;
     color: rgba(54, 54, 54, 0.5);
 }
+.inform>label {
+    display: flex;
+    flex-direction: column;
+}
+.inform {
+    height: 51px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    width: 231px;
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+}
 .agreelabel {
     font-family: 'Nunito Sans';
     font-style: normal;
