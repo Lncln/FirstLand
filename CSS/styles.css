@@ -138,7 +138,7 @@ nav a {
     z-index: -2;
 }
 .wrap1 {
-    max-width: 1438px;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 194px 134px 208px;
 }
@@ -502,4 +502,115 @@ label {
 }
 .wrap4 {
     margin-bottom: 34px;
+}
+.Step5 {
+    max-width: 1440px;
+    margin: 124px auto;
+}
+.wrap5 {
+
+}
+.pathwrap {
+    background-image: url(../Images/Section3/Backround.svg);
+    height: 645px;
+    max-width: 645px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom;
+    display: flex;
+}
+.thepath {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 473.62px;
+    margin: 117.14px 79.19px 54.24px auto;
+    width: 374.81px;
+}
+.stagewrap {
+    display: flex;
+    align-items: center;
+}
+.zero {
+    width: 42px;
+    height: 42px;
+    border-radius: 30px;
+    background: #E3B873;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    box-sizing: content-box;
+}
+.one {
+    margin-right: 11px;
+}
+.two {
+    margin-right: 8.39px;
+}
+.three {
+    margin-right: 6.25px;
+}
+.four {
+    margin-right: 5.24px;
+}
+.stage {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
+}
+.request {
+    width: 506px;
+    height: 509px;
+    background: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    display: grid;
+    text-align: center;
+}
+.request>label {
+    color: rgba(255, 255, 255, 0.5);
+}
+.request>.agreelabel {
+    color: #FFFFFF;
+}
+.request>#submit {
+    margin-left: auto;
+    margin-right: 49px;
+}
+.discount {
+    width: 72px;
+    height: 72px;
+    background: #E3B873;
+    box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
+    border-radius: 50%;
+}
+.discount:active {
+   background-color: rgba(34, 14, 14, 0.05)
+}
+.discount-slogan {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15); 
+    width: 344px;
 }
