@@ -695,4 +695,14 @@ label {
 }
 .elem2 {
     display: flex;
+    max-width: 353px;   
+}
+.elem2__image-clock {
+    margin-top: -40.53px;
+    margin-bottom: 39.1px ;
+    margin-right: 43px;
+}
+.elem2__image-room {
+    margin-top: -112.53px;
+    margin-bottom: 37px;
 }
