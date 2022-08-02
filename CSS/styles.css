@@ -646,6 +646,10 @@ label {
 .Step6 {
     margin: 0 auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Images/Section3/backgroundstep6.svg);
+    background-size: cover;
+}
+.wrap6 {
+    display: flex;
 }
 .elem1__title {
     font-family: 'Yeseva One';
@@ -683,4 +687,7 @@ label {
 }
 .fant {
     list-style: none;
+}
+.elem2 {
+
 }
