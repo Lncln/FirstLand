@@ -635,6 +635,7 @@ label {
     text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15); 
     width: 344px;
     margin-right: 132.5px;
+    text-align: left;
 }
 .adv {
     display: flex;
@@ -642,4 +643,44 @@ label {
     margin-left: auto;
     margin-top: 38.44px;
 }
+.Step6 {
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Images/Section3/backgroundstep6.svg);
+}
+.elem1__title {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #E3B873;
+    display: flex;
+    max-width: 411px;
+    
+}
 
+.active-item {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    border-bottom: 0.66px solid #E3B873;
+    color: #E3B873;
+    width: 146.23px;
+}
+.item {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.elem1 {
+    padding: 137.47px 77px 97.53px 99px;
+}
+.fant {
+    list-style: none;
+}
