@@ -646,7 +646,9 @@ label {
 .Step6 {
     margin: 0 auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Images/Section3/backgroundstep6.svg);
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: auto 1017.86px;
 }
 .wrap6 {
     display: flex;
@@ -661,7 +663,7 @@ label {
     color: #E3B873;
     display: flex;
     max-width: 411px;
-    
+    margin-bottom: 47px;
 }
 
 .active-item {
@@ -673,6 +675,7 @@ label {
     border-bottom: 0.66px solid #E3B873;
     color: #E3B873;
     width: 146.23px;
+    margin-bottom: 25px;
 }
 .item {
     font-family: 'Nunito Sans';
@@ -681,13 +684,15 @@ label {
     font-size: 20px;
     line-height: 38px;
     color: #FFFFFF;
+    margin-bottom: 25px;
 }
 .elem1 {
     padding: 137.47px 77px 97.53px 99px;
+    margin-right: 77px;
 }
 .fant {
     list-style: none;
 }
 .elem2 {
-
+    display: flex;
 }
