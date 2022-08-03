@@ -761,37 +761,79 @@ label {
     padding: 0px 31px 90px 21px ;  
 }
 .clients__block__clients-project {  
-    font-family: 'Yeseva One';
+    /* font-family: 'Yeseva One';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #FFFFFF; */
     background: #E3B873;
     box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
     display: flex;
-    max-width: 293.75px;
+    max-width: 294px;
+    margin-top: -27px;
+
 }
 .clients__block {
     max-width: 376px;
     background: #FFFFFF;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    max-height: 428px;
 }
 .profile {
     display: flex;
+    align-items: center;
+    padding: 24px 79px 0px 20px;
 }
 .clients-photo {
-    width: 76px;
-    height: 116px;
-    object-fit: scale-down;
+    width: 90%;
+    height: 90%;
+    /* object-fit: fill; */
 }
-.maria .clients-photo {
-    width: 86px;
+/* .maria .clients-photo {
+    width: 62px;
     object-fit: cover;
-}
+} */
+
 .clients-photo-cover {
-    border-radius: 50%;
+    /* border-radius: 50%; */ не делается ширина нормального размера и круг соответственно
     overflow: hidden;
     width: 76px;
     height: 76px;
+    background-color: #959595;
+    margin-right: 23px;
+    margin-bottom: 22px;
 }
+.clients__block__clients-project__area {
+    display: flex;
+    align-items: center;
+    padding: 11px 14px 12px 17px;
+    border-right: 0.75px solid #FFFFFF;
+}
+.area-text {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 15px;
+    margin-right: 14px;
+}
+.clients__block__clients-project__deadline {
+    display: flex;
+    align-items: center;
+    padding: 11px 12px 12px 17px;
+}
+.deadline-text {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;   
+    margin-right: 14px; 
+    margin-left: 15px;
+}
+
