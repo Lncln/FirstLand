@@ -706,3 +706,92 @@ label {
     margin-top: -112.53px;
     margin-bottom: 37px;
 }
+.Step7 {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.clients-header {
+    text-align: center;
+}
+.clients-header__title {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+    margin-bottom: 13.49px;
+}
+.clients-header__text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #363636;
+}
+.deal-image {
+    margin-bottom: 24.16px;
+}
+.clients {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 103px;
+    margin-right: 101px;
+}
+.clients__block__title {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;  
+}
+.clients__block__feedback {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 180%;
+    /* or 23px */
+    color: #959595;  
+    padding: 0px 31px 90px 21px ;  
+}
+.clients__block__clients-project {  
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #E3B873;
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+    display: flex;
+    max-width: 293.75px;
+}
+.clients__block {
+    max-width: 376px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+}
+.profile {
+    display: flex;
+}
+.clients-photo {
+    width: 76px;
+    height: 116px;
+    object-fit: scale-down;
+}
+.maria .clients-photo {
+    width: 86px;
+    object-fit: cover;
+}
+.clients-photo-cover {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 76px;
+    height: 76px;
+}
