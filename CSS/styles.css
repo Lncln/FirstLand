@@ -845,4 +845,30 @@ label {
     margin-right: 14px; 
     margin-left: 15px;
 }
+footer {
+    background-color:#131313;
+}
+#questions__agree {
+    cursor: crosshair;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    border-radius: 1px;
+}
+.questions-form {
+    width: 883px;
+    height: 445.32px;
+    background: #C4C4C4;   
+}
+.questions-form__title {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;    
+}
+
 
