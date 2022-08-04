@@ -365,12 +365,13 @@ input {
     color: #FFFFFF;
     cursor: pointer;
 }
-#agree {
+.agree {
     cursor: crosshair;
     width: 18px;
     height: 18px;
     background: #E3B873;
     border-radius: 1px;
+
 }
 label {
     font-family: 'Nunito Sans';
@@ -389,11 +390,18 @@ label {
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
+    margin-bottom: 35px;
 }
 .input{
     width: 231px;
     border: none;
     border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+}
+.name {
+    margin-right: 58px;
+}
+.phone {
+    margin-right: 49px;
 }
 .agreelabel {
     font-family: 'Nunito Sans';
@@ -403,6 +411,9 @@ label {
     line-height: 163.68%;
     /* or 23px */
     color: #181818;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 147.85px;
 }
 .pesronal-data-input {
     width: 769px;
