@@ -520,7 +520,7 @@ label {
 }
 .Step5 {
     max-width: 1440px;
-    margin: 124px auto;
+    margin: 124px auto 500px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -892,7 +892,9 @@ footer {
     width: 520px;
     margin: auto;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .contant-info {
     text-align: center;
@@ -945,4 +947,13 @@ footer {
     margin-right: 13px;
     margin-bottom: 30px;
     margin: 26px 7px 30px ;
+}
+.questions__agreelabel {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+    /* or 23px */
+    color: #FFFFFF;
 }
