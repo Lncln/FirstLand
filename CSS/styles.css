@@ -709,7 +709,14 @@ label {
 .Step7 {
     max-width: 1440px;
     margin: 0 auto;
+    padding-bottom: 219px;
+    background: url(../Images/Section3/FrameR.svg) right bottom no-repeat,
+                url(../Images/Section3/FrameL.svg) left bottom no-repeat;
+
 }
+/* .wrap7 {
+
+} */
 .clients-header {
     text-align: center;
 }
@@ -732,6 +739,7 @@ label {
     line-height: 29px;
     text-align: center;
     color: #363636;
+    margin-bottom: 39px;
 }
 .deal-image {
     margin-bottom: 24.16px;
@@ -779,6 +787,7 @@ label {
     background: #FFFFFF;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
     max-height: 428px;
+    margin-bottom: 381.65px;
 }
 .profile {
     display: flex;
