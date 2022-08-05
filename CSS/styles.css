@@ -336,7 +336,7 @@ li>a {
     text-align: center;
     color: #363636;
     width: 681px;
-    margin:  0 auto;
+    margin:  0 auto 91.5px;
 }
 input {
     font-family: 'Nunito Sans';
@@ -859,6 +859,7 @@ label {
 }
 footer {
     background-color:#131313;
+    z-index: 52213123123123;
 }
 .Step8 {
     max-width: 1440px;
@@ -944,8 +945,9 @@ footer {
     width: 925px;
     height: 465px;
     margin-bottom: 66px;
-    position: relative;
-    top: -216px;
+    /* position: relative;
+    top: -216px; */
+    margin-top: -216px;
 }
 .contant-info__button {
     background: #E3B873;    
