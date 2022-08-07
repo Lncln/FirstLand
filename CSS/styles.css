@@ -973,6 +973,9 @@ footer {
     /* or 23px */
     color: #FFFFFF;
 }
+.imaga__mobile-slider {
+    display: none;
+}
 @media screen and (min-width: 769px) and (max-width: 1299px) {
     
 }
@@ -1152,20 +1155,55 @@ footer {
         line-height: 158.48%;       
         text-align: center;
         color: #FFFFFF;
-        margin: auto;
+        margin: 0px auto 36px;
         width: 311px;
     }
     .admiral-img {
         display: none;
     }
-    .project-info-wrap h2 {
-        font: normal 400 18px/25px "Yeseva One";
-        text-transform: uppercase;
-        color: #E3B873;
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .imaga {
+        background-image: url(../Images/Mobile/backgroundImaga.svg);
+        background-size: auto auto;
+        width: 340px;
+        height: 241px;
+        margin: 36px auto;
+        order: 2;
+        display: flex;
+        align-items: center;
 
     }
+    .imaga__mobile-slider {
+        display: block;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+    }
+    .sliderright {
+        margin: 0px 13px 0px auto; 
+    }
+    .sliderleft-button {
+        margin: 0px 0px 0px 13px;
+    }
+    .project-info-wrap h2 {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 138.6%;
+        /* identical to box height, or 19px */
+        text-transform: uppercase;
+        color: #E3B873;
+    }
     .project-info-wrap span {
-        font: normal 400 13px/21px "Nunito Sans";
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 135.84%;
         color: #FFFFFF;
     }
     .project-info-wrap {
@@ -1173,56 +1211,137 @@ footer {
         flex-direction: column;
         flex-wrap: wrap;
         height: 201px;
-    
+        order: 3;
+        padding: 0px 16px 0px 18px;
     }
     .project-info-wrap>div {
         height: 99px;
     }
-    .imaga {
-        float: right;
-
-    }
     .online-control {
-        color: #FFFFFF;
         font-family: 'Yeseva One';
         font-style: normal;
         font-weight: 400;
-        font-size: 20px;
-        line-height: 28px;
+        font-size: 22px;
+        line-height: 138.6%;
+        /* or 30px */
         text-align: center;
         text-transform: uppercase;
-        /* margin-top: 92px; */
-    }
-    .camera-image {
         color: #FFFFFF;
-        display: flex;
-        justify-content: center;
-    }
-    .arrow {
-        color: #FFFFFF;
-        display: inline-block;
-        line-height: 1;
-        -webkit-transform: scaleX(3) scaleY(2);
-        -moz-transform: scaleX(3) scaleY(2);
-        -ms-transform: scaleX(3) scaleY(2);
-        transform: scaleX(3) scaleY(2);
-        position: relative;
-        top: -3px;
-        left: 15px;
-        font-size: 15px;
-        font-family: Arial;
-        margin-right: 45px;
-        cursor: pointer;
     }
     .slider {
         display: none;
     }
-    .radio {
-        margin: 0 30px;
+    .Step3 {
+        max-width: 100%;
+        margin: 0 auto;
+        background: #131313;
     }
-    .radiopoint {
-        margin-right: 17px;
-        width: 10px;
+    .camcover {
+        text-align: center;
+        margin-bottom: 26px;
+    }
+    .cam-control {
+        width: 340px; 
+        height: 207px; 
+    }   
+    /* ютубовские черные полосы? */
+    .dash-image {
+        margin-bottom: 21.5px;
+    }
+    .camera-desription {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 169.8%;
+        /* or 19px */
+        text-align: center;
+        color: #FFFFFF;
+        max-width: 340px;
+        margin:  0 auto 61.5px;
+    }
+    input {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 138.72%; 
+        color: #FFFFFF;
+    }
+    #submit {
+        background: #E3B873;
+        box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+        border-radius: 2px;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 27px;
+        /* identical to box height */
+        border: none;
+        text-align: center;
+        text-transform: uppercase;
+        width: 200px;
+        height: 51px;
+        color: #FFFFFF;
         cursor: pointer;
+    }
+    .agree {
+        cursor: crosshair;
+        width: 18px;
+        height: 18px;
+        background: #E3B873;
+        border-radius: 1px;
+        
+    }
+    label {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 21px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .inform>label {
+        display: flex;
+        flex-direction: column;
+    }
+    .inform {
+        height: 51px;
+        flex-wrap: wrap;
+        display: block;
+        margin-bottom: 35px;
+    }
+    .input{
+        width: 231px;
+        border: none;
+        border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    }
+    .name {
+        margin-right: 58px;
+    }
+    .phone {
+        margin-right: 49px;
+    }
+    .agreelabel {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 163.68%;
+        /* or 23px */
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 147.85px;
+    }
+    .pesronal-data-input__form {
+        display: flex;
+        flex-direction: row;
+    }
+    .pesronal-data-input {
+        width: 769px;
+        align-items: center;
+        margin: auto;
     }
 }
