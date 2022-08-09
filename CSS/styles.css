@@ -879,25 +879,25 @@ footer {
     height: 954px;
     position: relative;
 }
-#questions__agree {
+/* #questions__agree {
     cursor: crosshair;
     width: 18px;
     height: 18px;
     background: #E3B873;
     border-radius: 1px;
-}
+} */
 .wrap8 {
     width: 883px;
     height: 445.32px;
     background: #C4C4C4;
     margin:  auto;  
-    text-align: center;
+    text-align: left;
     /* margin-top: -216px; */
     margin-bottom: 62.5px;
     position: relative;
     top: -216px;
 }
-.questions-form__title {
+/* .questions-form__title {
     font-family: 'Yeseva One';
     font-style: normal;
     font-weight: 400;
@@ -906,15 +906,15 @@ footer {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;    
-}
-.questions-form {
+} */
+/* .questions-form {
     width: 520px;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
+} */
 .contant-info {
     text-align: center;
     position: relative;
@@ -930,7 +930,7 @@ footer {
     text-transform: uppercase;
     color: #E3B873;    
 }
-#questions__button-submit {
+/* #questions__button-submit {
     background: #E3B873;
     box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
     border-radius: 2px;
@@ -939,7 +939,6 @@ footer {
     font-weight: 400;
     font-size: 13px;
     line-height: 27px;
-    /* identical to box height */
     border: none;
     text-align: center;
     text-transform: uppercase;
@@ -947,7 +946,119 @@ footer {
     height: 51px;
     color: #FFFFFF;
     cursor: pointer;
+} */
+
+.fake{
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+    margin-right: 8.62px;
+    cursor: pointer;
+    align-items: center;
 }
+.fake::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+}
+.checkbox:checked + .fake::before{
+    opacity: 1;
+}
+.qform {
+    Width: 883px;
+    Height: 445.32px;
+    background: #C4C4C4;
+}
+.qform__content {
+    Width: 520px;
+    Height: 376.52px;
+    margin: auto auto;
+    padding-top: 34.4px;
+}
+.qform__content__title {
+    text-align: center;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF; 
+}
+qform__form__content__full-name__label {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5); 
+}
+.qform__content input {
+    display: flex;
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    background-color: #C4C4C4;
+}
+.qform__content input::placeholder {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.first-checkbox__label>.checkbox {
+    display: none;
+}
+.checkbox__text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+    color: #FFFFFF;
+}
+.qform__form__content__full-name {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 49px;
+}
+#quest-form__name, #quest-form__phone {
+    width: 231px;
+}
+#quest-form__quest {
+    width: 517px;
+    margin-bottom: 46.46px;
+}
+.first-checkbox__label {
+    display: flex;
+    justify-content: center;
+}
+.first-checkbox {
+    text-align: center;
+    margin-bottom: 50.45px;
+}
+.qform__content__button {
+    background: #E3B873;
+    box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;   
+    width: 200px;
+    height: 51px;
+    border: none;
+    margin-left: 160px;
+}
+
 .frame-map {
     width: 925px;
     height: 465px;
@@ -1509,13 +1620,6 @@ footer {
         display: flex;
         flex-direction: column;
     }
-    #questions__agree {
-        cursor: crosshair;
-        width: 18px;
-        height: 18px;
-        background: #E3B873;
-        border-radius: 1px;
-    }
     .wrap8 {
         width: 340px;
         height: auto;
@@ -1524,24 +1628,6 @@ footer {
         text-align: center;
         margin-bottom: 62.5px;
         position: static;
-    }
-    .questions-form__title {
-        font-family: 'Yeseva One';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 28px;
-        text-align: center;
-        text-transform: uppercase;
-        color: #FFFFFF;    
-    }
-    .questions-form {
-        width: 520px;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
     }
     .contant-info {
         text-align: center;
@@ -1557,24 +1643,6 @@ footer {
         text-align: center;
         text-transform: uppercase;
         color: #E3B873;    
-    }
-    #questions__button-submit {
-        background: #E3B873;
-        box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
-        border-radius: 2px;
-        font-family: 'Nunito Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 13px;
-        line-height: 27px;
-        /* identical to box height */
-        border: none;
-        text-align: center;
-        text-transform: uppercase;
-        width: 200px;
-        height: 51px;
-        color: #FFFFFF;
-        cursor: pointer;
     }
     .frame-map {
         width: 340px;
@@ -1596,12 +1664,114 @@ footer {
         margin-bottom: 30px;
         margin: 26px 7px 30px ;
     }
-    .questions__agreelabel {
+    .fake{
+        display: inline-flex;
+        width: 18px;
+        height: 18px;
+        background: #E3B873;
+        color: #fff;
+        justify-content: center;
+        margin-right: 8.62px;
+        cursor: pointer;
+        align-items: center;
+    }
+    .fake::before{
+        content:"\2714";
+        opacity: 0;
+        transition: .2s;
+    }
+    .checkbox:checked + .fake::before{
+        opacity: 1;
+    }
+    .qform {
+        Width: 883px;
+        Height: 445.32px;
+        background: #C4C4C4;
+    }
+    .qform__content {
+        Width: 520px;
+        Height: 376.52px;
+        margin: auto auto;
+        padding-top: 34.4px;
+    }
+    .qform__content__title {
+        text-align: center;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF; 
+    }
+    qform__form__content__full-name__label {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 21px;
+        color: rgba(255, 255, 255, 0.5); 
+    }
+    .qform__content input {
+        display: flex;
+        border: none;
+        border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+        background-color: #C4C4C4;
+    }
+    .qform__content input::placeholder {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+    .first-checkbox__label>.checkbox {
+        display: none;
+    }
+    .checkbox__text {
         font-family: 'Nunito Sans';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 163.68%;
         color: #FFFFFF;
+    }
+    .qform__form__content__full-name {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 49px;
+    }
+    #quest-form__name, #quest-form__phone {
+        width: 231px;
+    }
+    #quest-form__quest {
+        width: 517px;
+        margin-bottom: 46.46px;
+    }
+    .first-checkbox__label {
+        display: flex;
+        justify-content: center;
+    }
+    .first-checkbox {
+        text-align: center;
+        margin-bottom: 50.45px;
+    }
+    .qform__content__button {
+        background: #E3B873;
+        box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 27px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;   
+        width: 200px;
+        height: 51px;
+        border: none;
+        margin-left: 160px;
     }
 }
