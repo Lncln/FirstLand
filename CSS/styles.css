@@ -1260,7 +1260,7 @@ footer {
         max-width: 340px;
         margin:  0 auto 61.5px;
     }
-    input {
+    /* input {
         font-family: 'Nunito Sans';
         font-style: normal;
         font-weight: 400;
@@ -1277,7 +1277,6 @@ footer {
         font-weight: 400;
         font-size: 13px;
         line-height: 27px;
-        /* identical to box height */
         border: none;
         text-align: center;
         text-transform: uppercase;
@@ -1329,12 +1328,12 @@ footer {
         font-weight: 400;
         font-size: 14px;
         line-height: 163.68%;
-        /* or 23px */
         color: #FFFFFF;
         display: flex;
         justify-content: center;
         margin-bottom: 147.85px;
     }
+    
     .pesronal-data-input__form {
         display: flex;
         flex-direction: row;
@@ -1343,5 +1342,116 @@ footer {
         width: 769px;
         align-items: center;
         margin: auto;
+    } 
+    /* ВОТ ЭТО Я СКИПНУЛ!!!  */
+
+    .Step4 {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .wrap4 h3 {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 138.6%;
+        /* or 30px */ 
+        text-align: center;
+        text-transform: uppercase;
+        color: #181818;
+        margin-bottom: 17px;
+    }
+    .types-of-repair {
+        display: flex;
+        justify-content: center;
+        /* position: relative; */
+        flex-direction: column;
+    }
+    .listname {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 138.6%;
+        color: #363636;
+        margin-bottom: 10px;    
+    }
+    .list-of-works {
+        width: 198px;
+        list-style: none;
+        height: 241px;
+    }
+    .list-of-works li {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 169.8%;
+        color: #959595;
+    }
+    .priceperM2 {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 138.6%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 190px;
+        height: 40px;
+        bottom: 0px;
+        left: 0px;
+    
+    }
+    .type-desription {
+        color: #959595;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+        position: absolute;
+        max-width: 270px;
+        max-height: 241px;
+        padding: 21px 41px 37px 31px;
+        bottom: 28px;
+        left: -0px;
+    }
+    .redecorating {
+        background-image: url(../Images/Section2/typesofrepair/redecorating.svg);
+        padding: 0px 0px 0px 0px;
+        max-width: 340px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        max-height: 484px;
+        margin: auto;
+    }
+    .Overhaul {
+        background-image: url(../Images/Section2/typesofrepair/overhaul.svg);
+        margin-right: 30px;
+        max-width: 392px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 608px;
+    
+    }
+    .Designer {
+        background-image: url(../Images/Section2/typesofrepair/designer.svg);
+        margin-right: 30px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        width: 392px;
+        height: 608px;
+    }
+    .wrap4 {
+        margin-bottom: 40px;
+    }
+    .Step5 {
+        display: none;
+    }
+    .Step7 {
+        display: none;
+    }
+    footer {
+        display: none;
     }
 }
