@@ -374,6 +374,7 @@ input {
     height: 18px;
     background: #E3B873;
     border-radius: 1px;
+    margin-right: 8.62px;
 
 }
 label {
@@ -880,7 +881,7 @@ label {
 } */
 
 .clients-photo-cover {
-    /* border-radius: 50%;  не делается ширина нормального размера и круг соответственно*/
+    /* border-radius: 50%;  не делается ширина нормального размера и круг соответственно. Оставлю пока просто фоновый квадрат*/
     overflow: hidden;
     width: 76px;
     height: 76px;
@@ -1027,6 +1028,7 @@ footer {
     Width: 883px;
     Height: 445.32px;
     background: #C4C4C4;
+    /* На макете бекграунд такого цвета... */
 }
 .qform__content {
     Width: 520px;
