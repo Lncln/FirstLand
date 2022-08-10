@@ -601,11 +601,19 @@ label {
     line-height: 19px;
     color: #363636;
 }
-.request {
-    width: 506px;
-    height: 509px;
+.Call-form {
+    Width: 506px;
+    Height: 509px;
     background: #131313;
     box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+}
+.Call-form__content {
+    Width: 408px;
+    Height: auto;
+    margin: auto auto;
+    padding-top: 26px;
+}
+.Call-form__content__title {
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
@@ -613,20 +621,68 @@ label {
     line-height: 26px;
     text-align: center;
     color: #FFFFFF;
-    display: grid;
+    max-width: 297px;
     text-align: center;
-    margin-right: 100px;
-    margin-top: auto;
+    margin: 0px auto 39px;
 }
-.request>label {
+.Call-form__content label {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
     color: rgba(255, 255, 255, 0.5);
 }
-.request>.agreelabel {
+.Call-form__content input {
+    display: flex;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    background-color: #131313;
+    width: 408px;
+    margin-bottom: 48px;
+}
+.Call-form__content input::placeholder {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
     color: #FFFFFF;
 }
-.request>#submit {
-    margin-left: auto;
-    margin-right: 49px;
+.first-checkbox__label>.checkbox {
+    display: none;
+}
+.checkbox__text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+    color: #FFFFFF;
+}
+.first-checkbox {
+    /* text-align: center; */
+    margin-bottom: 39px;
+    margin-top: -32px;
+}
+.Call-form__content__button {
+    background: #E3B873;
+    box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF; 
+    width: 213px;
+    height: 51px;
+    border: none;
+    margin-left: 195px;
+}
+.request {
+    margin-top: 106px;
 }
 .discount {
     width: 72px;
@@ -637,7 +693,7 @@ label {
     margin-right: 25px;
 }
 .discount:active {
-   background-color: rgba(34, 14, 14, 0.05)
+    background-color: rgba(34, 14, 14, 0.05)
 }
 .discount-slogan {
     font-family: 'Nunito Sans';
