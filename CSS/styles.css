@@ -1671,19 +1671,22 @@ qform__form__content__full-name__label {
     .Step8 {
         max-width: 100%;
         margin: 0 auto;
-        text-align: center;
+        text-align: left;
         background-image: none;
         height: 1195px;
         position: static;
         display: flex;
         flex-direction: column;
+        background-color: #C4C4C4;
+        padding-top: 173px;
+        margin-top: -123px;
     }
     .wrap8 {
         width: 340px;
         height: auto;
         background: #C4C4C4;
         margin:  auto;  
-        text-align: center;
+        text-align: left;
         margin-bottom: 62.5px;
         position: static;
     }
@@ -1742,13 +1745,13 @@ qform__form__content__full-name__label {
         opacity: 1;
     }
     .qform {
-        Width: 883px;
-        Height: 445.32px;
+        Width: 340px;
+        Height: auto;
         background: #C4C4C4;
     }
     .qform__content {
-        Width: 520px;
-        Height: 376.52px;
+        Width: 340px;
+        Height: auto;
         margin: auto auto;
         padding-top: 34.4px;
     }
@@ -1762,6 +1765,7 @@ qform__form__content__full-name__label {
         text-align: center;
         text-transform: uppercase;
         color: #FFFFFF; 
+        margin-bottom: 52px;
     }
     qform__form__content__full-name__label {
         font-family: 'Nunito Sans';
@@ -1798,23 +1802,25 @@ qform__form__content__full-name__label {
     }
     .qform__form__content__full-name {
         display: flex;
-        justify-content: space-between;
-        margin-bottom: 49px;
+        margin-bottom: 0px;
+        flex-direction: column;
     }
     #quest-form__name, #quest-form__phone {
-        width: 231px;
+        width: 340px;
+        margin-bottom: 63px;
     }
     #quest-form__quest {
-        width: 517px;
-        margin-bottom: 46.46px;
+        width: 340px;
+        margin-bottom: 21.63px;
     }
     .first-checkbox__label {
         display: flex;
-        justify-content: center;
+        justify-content: left;
     }
     .first-checkbox {
         text-align: center;
-        margin-bottom: 50.45px;
+        margin-bottom: 67.33px;
+        margin-top: 0px;
     }
     .qform__content__button {
         background: #E3B873;
@@ -1827,9 +1833,9 @@ qform__form__content__full-name__label {
         text-align: center;
         text-transform: uppercase;
         color: #FFFFFF;   
-        width: 200px;
+        width: 100%;
         height: 51px;
         border: none;
-        margin-left: 160px;
+        margin: auto;
     }
 }
