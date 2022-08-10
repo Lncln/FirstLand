@@ -396,6 +396,9 @@ label {
     flex-direction: column;
     margin-bottom: 35px;
 }
+.second-checkbox {
+    display: none;
+}
 .input{
     width: 231px;
     border: none;
@@ -1015,6 +1018,7 @@ footer {
     margin-right: 8.62px;
     cursor: pointer;
     align-items: center;
+    border-radius: 1px;
 }
 .fake::before{
     content:"\2714";
@@ -1154,12 +1158,12 @@ qform__form__content__full-name__label {
 }
 @media screen and (min-width: 375px) and (max-width: 768px) {
     .head {
-       max-width: 100%;
-       margin: 0 auto;
-       padding: 23px 18px ;
-       height: 57px;
-       display: flex;
-       justify-content: space-between;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 23px 18px ;
+        height: 57px;
+        display: flex;
+        justify-content: space-between;
     }
     nav {
         display: none;
@@ -1283,15 +1287,12 @@ qform__form__content__full-name__label {
     .project-link {
         display: flex;
         list-style-type: none;
-        /* margin-left: 602px; */
         margin-left: auto;
         justify-content: space-between;
-        /* float: right; */
         width: 679px; 
         padding-right: 56px;
     }
     li>a {
-        /* display: flex; */
         text-decoration: none;
         text-transform: uppercase;
         font: normal 400 14px/19px "Yeseva One";
@@ -1302,10 +1303,7 @@ qform__form__content__full-name__label {
         margin-bottom: 45px;
     }
     .active-project-link {
-        /* text-decoration: underline; */
         color: #E3B873;
-        /* font: normal 400 14px/19px "Yeseva One"; */
-        /* text-transform: uppercase; */
     }
     .content>h2 {
         font-family: 'Yeseva One';
@@ -1366,7 +1364,6 @@ qform__form__content__full-name__label {
         font-weight: 400;
         font-size: 14px;
         line-height: 138.6%;
-        /* identical to box height, or 19px */
         text-transform: uppercase;
         color: #E3B873;
     }
@@ -1395,7 +1392,6 @@ qform__form__content__full-name__label {
         font-weight: 400;
         font-size: 22px;
         line-height: 138.6%;
-        /* or 30px */
         text-align: center;
         text-transform: uppercase;
         color: #FFFFFF;
@@ -1426,13 +1422,12 @@ qform__form__content__full-name__label {
         font-weight: 400;
         font-size: 11px;
         line-height: 169.8%;
-        /* or 19px */
         text-align: center;
         color: #FFFFFF;
         max-width: 340px;
         margin:  0 auto 61.5px;
     }
-    /* input {
+    input {
         font-family: 'Nunito Sans';
         font-style: normal;
         font-weight: 400;
@@ -1452,10 +1447,11 @@ qform__form__content__full-name__label {
         border: none;
         text-align: center;
         text-transform: uppercase;
-        width: 200px;
+        width: auto;
         height: 51px;
         color: #FFFFFF;
         cursor: pointer;
+        margin-top: -28px;
     }
     .agree {
         cursor: crosshair;
@@ -1463,7 +1459,7 @@ qform__form__content__full-name__label {
         height: 18px;
         background: #E3B873;
         border-radius: 1px;
-        
+        display: none;
     }
     label {
         font-family: 'Nunito Sans';
@@ -1478,21 +1474,35 @@ qform__form__content__full-name__label {
         flex-direction: column;
     }
     .inform {
-        height: 51px;
-        flex-wrap: wrap;
-        display: block;
+        height: 311px;
+        flex-wrap: nowrap;
+        display: flex;
         margin-bottom: 35px;
+        flex-direction: column;
+        width: 340px;
+        margin: auto;
     }
-    .input{
-        width: 231px;
+    .input {
+        width: 340px;
         border: none;
-        border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+        border-bottom: 1px solid #FFFFFF;;
+        background-color: #131313;
+    }
+    .input::placeholder {
+        font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 138.72%;
+    color: #FFFFFF;
     }
     .name {
-        margin-right: 58px;
+        margin-right: 0px;
+        margin-bottom: 63px;
     }
     .phone {
-        margin-right: 49px;
+        margin-right: 0px;
+        margin-bottom: 26.5px;
     }
     .agreelabel {
         font-family: 'Nunito Sans';
@@ -1501,25 +1511,32 @@ qform__form__content__full-name__label {
         font-size: 14px;
         line-height: 163.68%;
         color: #FFFFFF;
-        display: flex;
+        display: none;
         justify-content: center;
         margin-bottom: 147.85px;
     }
-    
+    .checkbox__label>.checkbox {
+        display: none;
+    }
+    .second-checkbox {
+        display: block;
+        margin-bottom: 62.5px;
+    }
     .pesronal-data-input__form {
         display: flex;
         flex-direction: row;
     }
     .pesronal-data-input {
-        width: 769px;
+        width: 340px;
         align-items: center;
         margin: auto;
     } 
-    /* ВОТ ЭТО Я СКИПНУЛ!!!  */
-
     .Step4 {
         max-width: 100%;
         margin: 0 auto;
+        padding-top: 83px;
+        margin-top: -58px;
+        background-color:#FFFFFF;
     }
     .wrap4 h3 {
         font-family: 'Yeseva One';
@@ -1527,7 +1544,6 @@ qform__form__content__full-name__label {
         font-weight: 400;
         font-size: 22px;
         line-height: 138.6%;
-        /* or 30px */ 
         text-align: center;
         text-transform: uppercase;
         color: #181818;
@@ -1535,7 +1551,6 @@ qform__form__content__full-name__label {
     }
     .types-of-repair {
         display: flex;
-        /* position: relative; */
         flex-direction: column;
     }
     .listname {
@@ -1735,6 +1750,7 @@ qform__form__content__full-name__label {
         margin-right: 8.62px;
         cursor: pointer;
         align-items: center;
+        border-radius: 1px;
     }
     .fake::before{
         content:"\2714";
