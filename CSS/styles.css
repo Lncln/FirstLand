@@ -1855,3 +1855,16 @@ qform__form__content__full-name__label {
         margin: auto;
     }
 }
+@media screen and (min-width: 1441px) {
+    .Step3, .Step4, .Step5, .Step6, .Step7, .Step8, footer {
+        display: none;
+    }
+    .Step1, .Step2 {
+        max-width: 100%;
+    }
+    .wrap2 {
+        width: 1440px;
+        margin: auto;
+    }
+
+}   
