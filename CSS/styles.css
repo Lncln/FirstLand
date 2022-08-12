@@ -38,7 +38,16 @@ button {
     outline: 0px;
     border: 0px;
 }
-
+.pokras2 {
+    background-color: #131313;
+    background-size: 100%;
+}
+.pokras1 {
+    background-position: center;
+    background: url(../Images/Section1/Background.svg);
+    background-size: cover;
+    max-width: 100%;
+}
 button:hover {
     opacity: 0.7;
 }
@@ -92,13 +101,13 @@ nav a {
 
 }
 .Step1 {
-    background: url(../Images/Section1/Background.svg);
+    /* background: url(../Images/Section1/Background.svg); */
     max-width: 1440px;
     margin: 0 auto;
     /* height: 707px;  */
-    background-size: cover;
+    /* background-size: cover; */
     /* background-repeat: no-repeat; */
-    background-position: center;
+    /* background-position: center; */
     position: relative;
     z-index: 2;
 }
@@ -126,11 +135,11 @@ nav a {
 } 
   */
 .image-filter {
-	width: 100%;
+	width: 200000%;
 	height: 100%;
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: -2000px;
 	right: 0;
 	bottom: 0;
 	background: #000;
@@ -717,12 +726,18 @@ label {
     margin-left: auto;
     margin-top: 38.44px;
 }
-.Step6 {
-    margin: 0 auto;
+.pokras6 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Images/Section3/backgroundstep6.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-size: auto 1017.86px;
+}
+.Step6 {
+    margin: 0 auto;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Images/Section3/backgroundstep6.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: auto 1017.86px; */
     max-width: 1440px;
 }
 .wrap6 {
@@ -928,14 +943,20 @@ footer {
     background-color:#131313;
     z-index: 52213123123123;
 }
+.pokras8 {
+    background-image: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%), url(../Images/Section3/backgroundstep8.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
 .Step8 {
     max-width: 1440px;
     margin: 0 auto;
     text-align: center;
-    background-image: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%), url(../Images/Section3/backgroundstep8.svg);
+    /* background-image: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%), url(../Images/Section3/backgroundstep8.svg);
     background-repeat: no-repeat;
     background-size: 1440px;
-    background-position: bottom;
+    background-position: bottom; */
     height: 954px;
     position: relative;
 }
@@ -1866,5 +1887,16 @@ qform__form__content__full-name__label {
         width: 1440px;
         margin: auto;
     }
-
+    .Step1 {
+    display: block;
+    background: url(../Images/Section1/Background.svg);
+    max-width: 100%;
+    margin: 0 auto;
+    /* height: 707px;  */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+    }
 }   
