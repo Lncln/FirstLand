@@ -1031,7 +1031,7 @@ footer {
 .qform {
     Width: 883px;
     Height: 445.32px;
-    background: #C4C4C4;
+    background: black;
     /* На макете бекграунд такого цвета... */
 }
 .qform__content {
@@ -1063,7 +1063,7 @@ qform__form__content__full-name__label {
     display: flex;
     border: none;
     border-bottom: 1px solid rgba(54, 54, 54, 0.3);
-    background-color: #C4C4C4;
+    background-color: black;
 }
 .qform__content input::placeholder {
     font-family: 'Nunito Sans';
@@ -1692,7 +1692,7 @@ qform__form__content__full-name__label {
         position: static;
         display: flex;
         flex-direction: column;
-        background-color: #C4C4C4;
+        background-color: black;
         padding-top: 173px;
         margin-top: -123px;
     }
@@ -1763,7 +1763,7 @@ qform__form__content__full-name__label {
     .qform {
         Width: 340px;
         Height: auto;
-        background: #C4C4C4;
+        /* background: #131313; */
     }
     .qform__content {
         Width: 340px;
@@ -1795,7 +1795,7 @@ qform__form__content__full-name__label {
         display: flex;
         border: none;
         border-bottom: 1px solid rgba(54, 54, 54, 0.3);
-        background-color: #C4C4C4;
+        /* background-color: #C4C4C4; */
     }
     .qform__content input::placeholder {
         font-family: 'Nunito Sans';
@@ -1855,7 +1855,7 @@ qform__form__content__full-name__label {
         margin: auto;
     }
 }
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 2559px) {
     .Step3, .Step4, .Step5, .Step6, .Step7, .Step8, footer {
         display: none;
     }
