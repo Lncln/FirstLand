@@ -730,7 +730,8 @@ label {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Images/Section3/backgroundstep6.svg);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-size: auto 1017.86px;
+    background-size: cover 1017.86px;
+    margin-bottom: 30px;
 }
 .Step6 {
     margin: 0 auto;
