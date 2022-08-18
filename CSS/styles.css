@@ -743,6 +743,7 @@ label {
 }
 .wrap6 {
     display: flex;
+    height: 864px;
 }
 .elem1__title {
     font-family: 'Yeseva One';
@@ -766,7 +767,7 @@ label {
     border-bottom: 0.66px solid #E3B873;
     color: #E3B873;
     width: 146.23px;
-    margin-bottom: 25px;
+    margin-bottom: 13px;
 }
 .item {
     font-family: 'Nunito Sans';
@@ -775,10 +776,10 @@ label {
     font-size: 20px;
     line-height: 38px;
     color: #FFFFFF;
-    margin-bottom: 25px;
+    margin-bottom: 11px;
 }
 .elem1 {
-    padding: 137.47px 77px 97.53px 99px;
+    padding: 137.47px 77px 72.53px 99px;
     margin-right: 77px;
 }
 .fant {
