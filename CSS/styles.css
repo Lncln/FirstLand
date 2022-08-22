@@ -1673,6 +1673,11 @@ qform__form__content__full-name__label {
     .wrap6 {
         display: flex;
         flex-direction: column;
+        height: auto;
+    }
+    .pokras6 {
+        background-image: none;
+        margin-bottom: 0px;
     }
     .elem1__title {
         font-family: 'Yeseva One';
