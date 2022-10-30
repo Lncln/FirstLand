@@ -230,8 +230,9 @@ li>a {
     text-transform: uppercase;
     font: normal 400 14px/19px "Yeseva One";
     color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
 }
-.project-link li:first-child {
+.project-link li {
 
     margin-bottom: 45px;
 }
