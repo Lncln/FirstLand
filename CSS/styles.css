@@ -279,6 +279,12 @@ li>a {
 .imaga {
     float: right;
 }
+
+.admiral-img {
+    min-width: 679px;
+    min-height: 482px;
+}
+
 .online-control {
     color: #FFFFFF;
     font-family: 'Yeseva One';
